@@ -25,6 +25,10 @@ public class TestStringListImpl {
 
     private List list5;
 
+    private Integer[] numbers1 = new Integer[] {1,2,3,4};
+
+    private Integer[] numbers2 = new Integer[] {1,4,3,2};
+
 
     private StringListImpl stringListImpl = new StringListImpl();
 
@@ -45,15 +49,6 @@ public class TestStringListImpl {
         list5 = new ArrayList(Collections.singleton("one"));
 
 
-        stringListImpl = new StringListImpl();
-
-
-        stringListImpl.add1  (list1.toString());
-
-        stringListImpl.add1 (list2.toString());
-
-
-
     }
 
 
@@ -65,8 +60,7 @@ public class TestStringListImpl {
         ArrayList List = new ArrayList();
 
         ArrayList list2 = new ArrayList<>();
-//
-//        list1.add("two");
+
 
         list2.add("two");
 

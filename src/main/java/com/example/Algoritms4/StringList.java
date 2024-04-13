@@ -28,4 +28,26 @@ public interface StringList {
     void clear();
 
     String[] toArray();
+    void sort(Integer[] arr);
+
+
+    void sort2(Integer[] arr);
+
+
+    void quickSort(Integer[] arr, int begin, int end);
+
+
+    int partition(Integer[] arr, int begin, int end);
+
+
+    void swapElements(Integer[] arr, int i1, int i2);
+
+
+    void grow();
+
+
+    void printArray();
+
+
+    void grow2 ();
 }
